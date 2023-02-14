@@ -10,5 +10,5 @@ app.use((req, res) =>{
 })
 
 app.listen(host_config.port, () =>{
-    console.log(`Server running at localhost:${host_config}`)
+    console.log(`Server running at localhost:${host_config.port}`)
 })
